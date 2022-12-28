@@ -3,7 +3,7 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
 
 
 ## Chức năng
-### 1. Đăng ký tài khoản
+## 1. Đăng ký tài khoản
       UI Flow:
       Khi người dùng khởi động phần mềm, người dùng cần đăng nhập, nếu chưa có tài khoản, người dùng cần đăng ký tài khoản,
       để đăng ký tài khoản người dùng cần điền các thông tin: họ tên, số điện thoại, mật khẩu. Trong đó, mỗi tài khoản chỉ 
@@ -21,7 +21,7 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
                 Success = success ? true : false
               }
               
- ### 2. Đăng nhập
+ ## 2. Đăng nhập
       
       UI Flow:
       Khi đăng nhập, người dùng cần điền 2 thông tin là số điện thoại và mật khẩu. Nếu nhập sai hệ thống sẽ thông báo 
@@ -39,12 +39,12 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
                 Success = success ? true : false
               }
              
-### 3. Trang chủ
+## 3. Trang chủ
     UI Flow:
     Tại trang chủ sẽ hiển thị danh sách các chức năng mà chương trình hỗ trợ: Tìm kiếm thợ sửa điện, tìm kiếm thợ sửa nước,
     tìm kiếm cây xăng gần đây, tìm kiếm tiệm sửa xe gần đây, cấp cứu xe máy, cấp cứu ô tô, ...
     
-### 4. Thông tin thợ sửa chữa
+## 4. Thông tin thợ sửa chữa
     
     UI Flow:
     Khi người dùng chọn chức năng tìm kiếm thợ sửa điện, người dùng sẽ xem được danh sách các thợ sửa chữa gần đây đang hoạt động. 
@@ -76,10 +76,10 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
                 Success = success ? true : false
               }
               
- ### 5. Liên hệ
+ ## 5. Liên hệ
       Tại mục xem thông tin thợ sửa chữa người dùng có thể nhấn liên hệ trưc tiếp với thợ sửa chữa. 
       
- ### 6. Góp ý
+ ## 6. Góp ý
       Trong quá trình sử dụng ứng dụng, người dùng có thể gửi góp ý về quá trình sử dụng chương trình cho nhà phát triển
       để cải thiện sản phẩm tốt hơn.
       
