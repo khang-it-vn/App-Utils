@@ -84,4 +84,6 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
       Trong quá trình sử dụng ứng dụng, người dùng có thể gửi góp ý về quá trình sử dụng chương trình cho nhà phát triển
       để cải thiện sản phẩm tốt hơn.
       
-      
+## Chức năng của thợ sửa chữa
+> Thợ sửa chữa
+## 1. Đăng nhập
