@@ -3,6 +3,7 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
 
 
 ## Chức năng
+> **Người dùng**
 ## 1. Đăng ký tài khoản
       UI Flow:
       Khi người dùng khởi động phần mềm, người dùng cần đăng nhập, nếu chưa có tài khoản, người dùng cần đăng ký tài khoản,
