@@ -62,7 +62,8 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
               }
           
     UI Flow:
-    Khi người dùng chọn vào một thợ sửa chữa có thể xem được thông tin của thợ sửa chữa bao gồm: họ tên, địa chỉ, số điện thoại, giới tính, hình ảnh.
+    Khi người dùng chọn vào một thợ sửa chữa có thể xem được thông tin của thợ sửa chữa bao gồm: họ tên, địa chỉ, số điện thoại,
+    giới tính, hình ảnh.
     API:
       ==> Method: [GET] 
       ==> URL:    domain/v1/api/User/RepairerInfomation
@@ -74,4 +75,12 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
                 Message= "Get Infomation of Repairer By ID",
                 Success = success ? true : false
               }
+              
+ ### 5. Liên hệ
+      Tại mục xem thông tin thợ sửa chữa người dùng có thể nhấn liên hệ trưc tiếp với thợ sửa chữa. 
+      
+ ### 6. Góp ý
+      Trong quá trình sử dụng ứng dụng, người dùng có thể gửi góp ý về quá trình sử dụng chương trình cho nhà phát triển
+      để cải thiện sản phẩm tốt hơn.
+      
       
