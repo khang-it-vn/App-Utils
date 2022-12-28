@@ -87,3 +87,25 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
 ## Chức năng của thợ sửa chữa
 > Thợ sửa chữa
 ## 1. Đăng nhập
+      UI Flow:
+      Khi thợ sửa chữa mở chương trình lên, cần đăng nhập tài khoản để sử dụng.
+      
+      API:
+      ==> Method: [POST] 
+      ==> URL:    domain/v1/api/Repairer/Login
+      ==> Param:  @RepairerModel{SoDienThoai: String, MatKhau: String}
+
+      Response: 
+              {
+                Data= success ?  @Repairer : MessageError,
+                Message= "Login",
+                Success = success ? true : false
+              }
+      
+      Trong đó, tài khoản này thợ sửa chữa sẽ được cung cấp khi đi đăng ký trở thành thành viên. 
+      Khi vào chương tình, thợ sửa chữa có thể thực hiện các chức năng sau: 
+      
+## 2. Bật trạng thái nhận sửa chữa: 
+      UI Flow:
+      Khi bật trạng thái này lên, người dùng có thể xem được danh thông tin của mình. 
+      
