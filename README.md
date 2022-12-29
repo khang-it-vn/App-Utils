@@ -107,5 +107,52 @@ App tiện ích cuộc sống, đồ án môn lập trình di động nên chư�
       
 ## 2. Bật trạng thái nhận sửa chữa: 
       UI Flow:
-      Khi bật trạng thái này lên, người dùng có thể xem được danh thông tin của mình. 
+      Khi bật trạng thái này lên, người dùng có thể xem được thông tin của mình trong danh sách thợ sửa chữa gần đây.
+      
+      API:
+      ==> Method: [PATCH] 
+      ==> URL:    domain/v1/api/Repairer/Active
+      ==> Param:  ID: String
+
+      Response: 
+              {
+                Data= success ?  @Repairer : MessageError,
+                Message= "Active | Non",
+                Success = success ? true : false
+              }
+              
+## 3. Xem thông tin cá nhân
+      
+      UI Flow:
+      Thông tin cá nhân này khi đi đăng ký tài khoản sẽ được admin cập nhật, 
+      nếu phát hiện bạn cần đến chi nhánh cung cấp để sửa chữa. 
+      
+## 4. Check thông tin
+      
+      UI Flow:
+      Thợ sửa chữa có thể thông qua số điện thoại của khách có thể xem được thông tin của khách hàng.
+      Trong đó, thợ sửa chữa có thể xác định chính xác vị trí để di chuyển dễ dàng hơn.
+      
+      API:
+      ==> Method: [GET] 
+      ==> URL:    domain/v1/api/Repairer/InformationUser
+      ==> Param:  SoDienThoai: String
+
+      Response: 
+              {
+                Data= success ?  @User : MessageError,
+                Message= "Information Of User",
+                Success = success ? true : false
+              }
+              
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
