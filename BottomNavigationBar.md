@@ -8,10 +8,13 @@
 > implementation 'com.google.android.material:material:1.7.0'
 
 ## 2. Tạo resource file
-
+##### Bước 1:
 > res > New > Directory > name: 'menu'   || Hoàn tất
+
+##### Bước 2:
 >  menu > New > Menu Resource File > name: 'tùy ý, <menu_bottom_navigation>' || Hoàn tất
-> Nội dung trong file menu_bottom_navigation như sau:
+
+Nội dung trong file menu_bottom_navigation như sau:
 
     <item android:id="@+id/home"
         android:title="@string/action_home"
